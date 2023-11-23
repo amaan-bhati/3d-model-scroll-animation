@@ -44,10 +44,7 @@ export default function Projects() {
             <Titles data={data} setSelectedProject={setSelectedProject}/>
             <Descriptions data={data} selectedProject={selectedProject}/>
         </div>
-<div className={styles.container}>
-            <Titles data={data} setSelectedProject={setSelectedProject}/>
-            <Descriptions data={data} selectedProject={selectedProject}/>
-        </div>
+
     )
 }
 
