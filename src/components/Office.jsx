@@ -11,7 +11,7 @@ export const FLOOR_HEIGHT = 2.3;
 export const NB_FLOORS = 3;
 
 export function Office(props) {
-  const { nodes, materials } = useGLTF("path to the 3d model");
+  const { nodes, materials } = useGLTF("./models/AmaanOffice.glb");
   const ref = useRef();
   const tl = useRef();
   const libraryRef = useRef();
@@ -145,4 +145,4 @@ export function Office(props) {
   );
 }
 
-useGLTF.preload("path to the 3d model");
+useGLTF.preload("./models/AmaanOffice.glb");
