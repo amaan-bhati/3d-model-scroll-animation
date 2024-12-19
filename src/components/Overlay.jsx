@@ -86,7 +86,7 @@ export const Overlay = () => {
             3d development might not be my niche but I can work on it when required 
           </p>
           <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            📞 <a href="https://contact.amaanbhati.tech" className="text-blue-500 hover:underline">My contact website/linktree</a>
+            📞 <a href="https://contact.amaanbhati.tech" className="text-blue-500 hover:underline">My contact website</a>
           </p>
         </Section>
       </div>
